@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'irish-regular';
+  src: url('../../../assets/fonts/IrishGrover-Regular.ttf');
+}
+@font-face {
+  font-family: 'montserrat-regular';
+  src: url('../../../assets/fonts/static/Montserrat-Regular.ttf');
+}
+
+$titleFont: 'irish-regular';
+$primaryFont: 'montserrat-regular';
+
+//colors
+$primary: #99ADB1;
+$secondary: #6B797C;
+$light: #F6FEFF;
+$brown: #B1A399;
+$darkBrown: #7C726B;

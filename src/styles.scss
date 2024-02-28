@@ -1,0 +1,38 @@
+@use '@angular/material' as mat;
+@import '_variables.scss';
+
+
+$primary: #99ADB1;
+$secondary: #6B797C;
+$light: #F6FEFF;
+$brown: #B1A399;
+$darkBrown: #7C726B;
+
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --primary-color: $primary ;
+  --bs-btn-bg: $primary-color;
+  --bg-light: #FDF9F4;
+  --mdc-filled-button-container-color: #7C726B;
+}
+
+.mat-mdc-unelevated-button.mat-primary {
+  background-color: var(--primary-color);
+}
+
+.mat-mdc-unelevated-button:not(:disabled) {
+  // background-color: $primary;
+  --mdc-filled-button-container-color: #7C726B;
+
+}
+
+body {
+  background-color: rgba($color: $primary, $alpha: 0.4);
+}

@@ -1,0 +1,25 @@
+@import "../../shared/styles/variables.scss";
+
+.navbar-brand {
+  font-family: $titleFont;
+}
+
+li {
+  list-style: none;
+  margin: 0 1em;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+}
+
+
+.line-vertical {
+  height: 2.5em;
+  background-color: #ffffff;
+  width: 1px;
+}

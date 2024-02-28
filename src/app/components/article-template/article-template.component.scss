@@ -1,0 +1,18 @@
+@import "../../shared/styles/variables.scss";   
+
+body{
+    background-color: $light;
+}
+
+h1{
+    font-family: $primaryFont;
+    font-weight: bold;
+}
+
+.article-subtitle{
+    font-family: $primaryFont;
+}
+
+.article-text{
+    font-family: $primaryFont;
+}

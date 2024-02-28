@@ -1,0 +1,21 @@
+@import "../../shared/styles/variables.scss";  
+
+.about-section {
+    padding: 5rem 0;
+}
+
+.about-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.about-text {
+    text-align: justify;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+body{
+    background-color: $light;
+}
