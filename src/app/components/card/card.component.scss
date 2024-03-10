@@ -1,5 +1,9 @@
 @import "../../shared/styles/variables.scss";   
 
+.card{
+    margin-top: 1%;
+    margin-left: 2%;
+}
 
 .card-body{
     font-family: $primaryFont;
@@ -11,4 +15,13 @@
     font-family: $primaryFont;
 }
 
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
 
+
+.card-wrapper {
+    margin-bottom: 20px; 
+ }

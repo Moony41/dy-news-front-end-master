@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -18,6 +17,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { CardComponent } from './components/card/card.component';
 import { ArticleTemplateComponent } from './components/article-template/article-template.component';
 import { AboutPageComponent } from './components/about-page/about-page.component';
+
 
 @NgModule({
   declarations: [

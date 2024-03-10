@@ -1,8 +1,12 @@
-<div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="src\assets\images\new1.png" alt="Card image">
-    <div class="card-body">
-      <h5 class="card-title" >Microsoft Portugal anuncia Maria Kol como nova Human Resources Lead</h5>
-      <p class="card-text">A Microsoft anuncia a nomeação de Maria Kol para o cargo de Human Resources Lead em Portugal, onde ficará responsável pela gestão estratégica dos Recursos Humanos da subsidiária portuguesa. </p>
-      <a routerLink="/article-template" routerLinkActive="active" class="btn btn-primary">Read More</a>
+<div class="card-container">
+  <div *ngFor="let article of post; let i = index" class="card-wrapper">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="assets\images\new1.png" alt="Card image">
+      <div class="card-body">
+        <h5 class="card-title">{{ article.title }}</h5>
+        <p class="card-text">{{ article.text | slice:0:200 }}</p>
+        <a (click)="goToArticle(article.id)" class="btn btn-primary">Read More</a>
+      </div>
     </div>
   </div>
+</div>

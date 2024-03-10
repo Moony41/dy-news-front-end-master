@@ -8,12 +8,14 @@
     font-size: 2rem;
     margin-bottom: 2rem;
     text-align: center;
+    font-family: $titleFont;
 }
 
 .about-text {
     text-align: justify;
     max-width: 50rem;
     margin: 0 auto;
+    font-family: $primaryFont;
 }
 
 body{

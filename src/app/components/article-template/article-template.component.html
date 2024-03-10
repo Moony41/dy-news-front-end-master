@@ -1,26 +1,12 @@
 <app-navbar></app-navbar>
 <body>
-    <div class="container mt-5">
+    <div class="container mt-5" *ngIf="article">
       <div class="row">
         <div class="col-md-8 offset-md-2">
-          <h1 class="text-center mb-4">Article Title</h1>
-          <img src="https://via.placeholder.com/1200x600" alt="Article Image" class="img-fluid mb-4"/>
+          <h1 class="text-center mb-4">{{article.title}}</h1>
+          <img src="assets\images\new1.png" alt="Article Image" class="img-fluid mb-4"/>
         </div>
-        <p class="article-subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            commodo, velit et pharetra rhoncus, mi lacus venenatis nisl, vel
-            aliquet lorem nisi et sapien.
-        </p>
-        <p class="article-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            commodo, velit et pharetra rhoncus, mi lacus venenatis nisl, vel
-            aliquet lorem nisi et sapien. Sed commodo, velit et pharetra
-            rhoncus, mi lacus venenatis nisl, vel aliquet lorem nisi et
-            sapien. Sed commodo, velit et pharetra rhoncus, mi lacus venenatis
-            nisl, vel aliquet lorem nisi et sapien. Sed commodo, velit et
-            pharetra rhoncus, mi lacus venenatis nisl, vel aliquet lorem nisi
-            et sapien.
-        </p>
+        <p class="article-text">{{article.text}}</p>
     </div>
 </div>
 </body>

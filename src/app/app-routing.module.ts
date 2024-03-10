@@ -12,9 +12,8 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent},
   { path: 'login', component: LoginComponent},
   { path: 'dashboard', component: DashboardComponent},
-  { path: 'article-template', component: ArticleTemplateComponent},
   { path: 'about-page', component: AboutPageComponent},
-
+  { path: 'article/:id', component: ArticleTemplateComponent},
 ];
 
 @NgModule({
